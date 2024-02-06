@@ -24,6 +24,7 @@ function Users() {
     };
 
     const handleAddUser = (newUser) => {
+        console.log(newUser, 'new')
         setUserData([...userData, newUser]);
     };
     
@@ -48,7 +49,7 @@ function Users() {
                 </Col>
             </Row>
             <Row>
-                <PaginatedTable mockData={mockData} />
+                <PaginatedTable mockData={userData} />
             </Row>
             {/* Other content for the Home page */}
             

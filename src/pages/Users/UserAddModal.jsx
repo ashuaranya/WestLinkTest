@@ -4,25 +4,37 @@ import { Modal, Button, Form, Alert } from 'react-bootstrap';
 
 function UserAddModal({ showModal, handleClose, handleAddUser }) {
   const [name, setName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [age, setAge] = useState('');
   const [email, setEmail] = useState('');
+  const [role, setRole] = useState('');
   const [error, setError] = useState('');
 
   const handleAddClick = () => {
     // Basic validation
-    if (!name || !age || !email) {
+    if (!name || !age || !email || !role) {
       setError('Please fill in all fields.');
       return;
     }
 
     const newUser = {
       id: Date.now(), // Generate a unique ID (for demonstration purposes)
-      name,
+      fname: name,
+      lname: lastName,
       age: parseInt(age),
       email,
+      role,
+      status: 'registered'
     };
 
     handleAddUser(newUser);
+    // Reset form fields
+    setName('');
+    setLastName('');
+    setAge('');
+    setEmail('');
+    setRole('');
+
     handleClose();
   };
 
@@ -40,12 +52,21 @@ function UserAddModal({ showModal, handleClose, handleAddUser }) {
         {error && <Alert variant="danger">{error}</Alert>}
         <Form>
           <Form.Group controlId="formName">
-            <Form.Label>Name</Form.Label>
+            <Form.Label>First Name</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Enter name"
+              placeholder="Enter first name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+            />
+          </Form.Group>
+          <Form.Group controlId="formName">
+            <Form.Label>Last Name</Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="Enter last name"
+              value={lastName}
+              onChange={(e) => setLastName(e.target.value)}
             />
           </Form.Group>
           <Form.Group controlId="formAge">
@@ -64,6 +85,15 @@ function UserAddModal({ showModal, handleClose, handleAddUser }) {
               placeholder="Enter email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+            />
+          </Form.Group>
+          <Form.Group controlId="formRole">
+            <Form.Label>Role</Form.Label>
+            <Form.Control
+              type="role"
+              placeholder="Enter role"
+              value={role}
+              onChange={(e) => setRole(e.target.value)}
             />
           </Form.Group>
         </Form>
