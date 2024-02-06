@@ -1,0 +1,47 @@
+button.btn-add {
+    background: #5D5FEF;
+    border-color: #5D5FEF;
+    width: 159px;
+    height: 52px;
+    border-radius: 10px;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: Barlow Condensed;
+}
+
+button.btn-add svg {
+    margin-right: 20px;
+}
+
+.page-users {
+    margin: 0 auto;
+}
+
+svg.icon-check {
+    color: #A5A6F6;
+    padding: 0 !important;
+    height: 21px;
+    width: 21px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+/* Rectangle 8 */
+.rectangle {
+    width: 14px;
+    height: 14px;
+    background: #5D5FEF;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    outline: 1px solid #5d5fef;
+}
+
+span.rect-text {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -1px;
+    font-size: 16px;
+    line-height: 22.4px;
+}

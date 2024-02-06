@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "fname": "Frank",
+        "lname": "Lampard",
+        "age": "25",
+        "email": "john@example.com",
+        "role": "Admin",
+        "status": "registered"
+    },
+    {
+        "id": "2",
+        "fname": "John",
+        "lname": "Terry",
+        "age": "30",
+        "email": "jane@example.com",
+        "role": "User",
+        "status": "invited"
+    },
+    {
+        "id": "3",
+        "fname": "Teo",
+        "lname": "Walcott",
+        "age": "28",
+        "email": "bob@example.com",
+        "role": "User",
+        "status": "deleted"
+    },
+    {
+        "id": "4",
+        "fname": "Frank",
+        "lname": "Lampard",
+        "age": "25",
+        "email": "john@example.com",
+        "role": "Admin",
+        "status": "registered"
+    },
+    {
+        "id": "5",
+        "fname": "John",
+        "lname": "Terry",
+        "age": "30",
+        "email": "jane@example.com",
+        "role": "User",
+        "status": "invited"
+    },
+    {
+        "id": "6",
+        "fname": "Teo",
+        "lname": "Walcott",
+        "age": "28",
+        "email": "bob@example.com",
+        "role": "User",
+        "status": "deleted"
+    },
+    {
+        "id": "7",
+        "fname": "Frank",
+        "lname": "Lampard",
+        "age": "25",
+        "email": "john@example.com",
+        "role": "Admin",
+        "status": "registered"
+    },
+    {
+        "id": "8",
+        "fname": "John",
+        "lname": "Terry",
+        "age": "30",
+        "email": "jane@example.com",
+        "role": "User",
+        "status": "invited"
+    },
+    {
+        "id": "9",
+        "fname": "Teo",
+        "lname": "Walcott",
+        "age": "28",
+        "email": "bob@example.com",
+        "role": "User",
+        "status": "deleted"
+    },
+    {
+        "id": "10",
+        "fname": "Frank",
+        "lname": "Lampard",
+        "age": "25",
+        "email": "john@example.com",
+        "role": "Admin",
+        "status": "registered"
+    },
+    {
+        "id": "11",
+        "fname": "John",
+        "lname": "Terry",
+        "age": "30",
+        "email": "jane@example.com",
+        "role": "User",
+        "status": "invited"
+    },
+    {
+        "id": "12",
+        "fname": "Teo",
+        "lname": "Walcott",
+        "age": "28",
+        "email": "bob@example.com",
+        "role": "User",
+        "status": "deleted"
+    }
+]

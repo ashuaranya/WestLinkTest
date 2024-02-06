@@ -1,0 +1,46 @@
+body {
+  font-family: Barlow Condensed !important;
+}
+
+.custom-nav{
+  width: 80px !important;
+  background: #A5A6F6;
+}
+
+.custom-nav .icon-style {
+  font-size: 28px;
+  color: black;
+}
+
+.nav-link{
+  height: 60px;
+  width: 60px;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+
+.page-heading{
+  font-family: Cormorant Garamond !important;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  margin-right: 3rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.active{
+  background: white !important;
+  border-radius: 15px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
